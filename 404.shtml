@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--Structured Meta - START-->    
+    <!--Structured Meta - END-->
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/images/ico/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/images/ico/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/images/ico/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/images/ico/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/images/ico/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/images/ico/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/images/ico/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/images/ico/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="./assets/images/ico/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="./assets/images/ico/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="./assets/images/ico/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./assets/images/ico/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="./assets/images/ico/favicon-128.png" sizes="128x128" />
+
+    <!-- Standard Meta -->
+    <meta name="application-name" content="4th Avenue | Life Republic" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="./assets/images/ico/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="./assets/images/ico/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./assets/images/ico/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="./assets/images/ico/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="./assets/images/ico/mstile-310x310.png" />
+
+    <!--Common meta-->
+    <meta name="robots" content="follow, index, noodp">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="4th Avenue | Life Republic">
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Style Sheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/common-custom.css" rel="stylesheet" type="text/css">
+
+    <!-- Semantic JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/visibility.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/sidebar.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/transition.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/dropdown.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/accordion.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/modal.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/dimmer.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/transition.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/form.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/embed.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/popup.js"></script>
+
+    <!--Font awesome js-->
+    <script src="https://use.fontawesome.com/3f5f427054.js"></script>
+
+    <!--Website JS files-->
+    <script type="text/javascript" src="./assets/js/fta-website-master.js"></script>
+    <script type="text/javascript" src="./assets/js/fta-navbar-dynamic.js"></script>
+    <script type="text/javascript" src="./assets/js/fta-scroll-dynamic.js"></script>
+
+    <!--Full page scroll-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/vendors/easings.min.js"></script>
+
+    <!--Water animation-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet" type="text/css" />
+
+    <!--Page specific meta-->
+    <title>Page not found | 4th Avenue - Life Republic</title>
+    <meta name="title" content="Page not found | 4th Avenue - Life Republic">
+    <meta property="og:title" content="Page not found | 4th Avenue - Life Republic">
+    <meta name="twitter:title" content="Page not found | 4th Avenue - Life Republic">
+
+    <meta name="description" content="We can't seem to find the page you're looking for. It might be us, but just to confirm, please check the address or link and see if there is something wrong.">
+    <meta property="og:description" content="We can't seem to find the page you're looking for. It might be us, but just to confirm, please check the address or link and see if there is something wrong.">
+    <meta name="twitter:description" content="We can't seem to find the page you're looking for. It might be us, but just to confirm, please check the address or link and see if there is something wrong.">
+
+    <meta name="image" content="https://www.liferepublic4thavenue.com/assets/images/og-images/home-4th-avenue-life-republic-og-image.jpg">
+    <meta property="og:image" content="https://www.liferepublic4thavenue.com/assets/images/og-images/home-4th-avenue-life-republic-og-image.jpg">
+    <meta name="twitter:image" content="https://www.liferepublic4thavenue.com/assets/images/og-images/home-4th-avenue-life-republic-og-image.jpg">
+    <meta property="og:image:alt" content="Page not found | 4th Avenue - Life Republic">
+    <meta name="twitter:image:alt" content="Page not found | 4th Avenue - Life Republic">
+
+</head>
+<body class="">
+    <div class="ui vertical inverted sidebar fta-siderbar green menu no-shadow sidebar-container">
+        <!-- Sidebar Menu START -->
+        <!--Need to remove this and make this common-->
+        <div id="sidebar">
+            <a title="4th Avenue | Life Republic" href="/" class="item fta-sidebar-header ftabg-pallet white">
+                <img class="ui image" src="./assets/images/logo/4th-avenue-logo-title-color.svg" style="width: 110px;">
+            </a>
+            <div class="ui small header item">
+                WEBSITE IS COMING SOON
+            </div>
+            <!-- <a class="item" href="./departments.html">DEPARTMENTS</a>
+            <a class="item" href="./services.html">SERVICES</a>
+            <a class="item" href="./team.html">TEAM</a>
+            <a class="item" href="./about-us.html">ABOUT</a>
+            <a class="item" href="./contact.html">CONTACT</a> -->
+        </div>
+        <div class="ui dashed divider white no-margin"></div>
+        <div class="item">
+            <div class="ui small header text white">
+                CONTACT US
+            </div>
+            <div class="ui small header text white no-margin">
+                Facility
+            </div>
+            <div class="ui small header custom-link color-white no-margin">
+                <a title="Send an email to facility" target="_blank" href="mailto:facility@liferepublic4thavenue.com">
+                    facility@liferepublic4thavenue.com
+                </a>
+            </div> 
+            <div class="ui hidden divider"></div>
+            <div class="ui small header text white no-margin">
+                Security
+            </div>
+            <div class="ui small header custom-link color-white no-margin">
+                <a title="Send an email to security" target="_blank" href="mailto:security@liferepublic4thavenue.com">
+                    security@liferepublic4thavenue.com
+                </a>
+            </div>            
+        </div>
+        <div class="ui dashed divider white"></div>
+        <!-- Sidebar Menu ENDS -->
+    </div>
+    <div class="pusher">
+        <div class="full height">
+            <div class="top-header-menu-container">
+                <!--Top Navigation Bar START -->
+                <!--Need to remove this and make this common-->
+                <div id="top_navbar">
+                    <!--Page Scrolled menu -->
+                    <div class="ui top fixed menu fta-top-navbar-background hide-on-mobile page-scrolled-menu">
+                        <div class="top-bar">
+                            <div class="ftabg-pallet full-transparent ui segment grid no-border no-padding no-margin no-radius no-shadow custom-section-width sixteen-wide">
+                                <div class="row no-margin no-padding">
+                                    <div class="eight wide mobile eight wide tablet eight wide computer column no-margin no-padding">
+                                        <div class="container-fluid responsive-padding padding-large" style="padding-top: 0rem !important; padding-bottom: 0rem !important">
+                                            <div class="content-block vertical-align-middle">
+                                                <div class="inner-content">
+                                                    <a title="4th Avenue | Life Republic" href="/" class="fta-logo-image-container-scrolled"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="eight wide mobile eight wide tablet eight wide computer column no-margin no-padding">
+                                        <div class="container-fluid responsive-padding padding-large" style="padding-top: 0rem !important; padding-bottom: 0rem !important">
+                                            <div class="content-block vertical-align-middle">
+                                                <div class="inner-content position-right text-align-right">
+                                                    <div class="right menu fta-navbar-menu top-navbar-menu">
+                                                        <a class="item scroll-to-top">
+                                                            <span class="menu-text"><i class="chevron up large icon no-margin"></i></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Top nav bar-->
+                    <div class="ui top menu fta-top-navbar-background fta-top-navbar-floating page-top-menu">
+                        <!--Sub header : Computer-->
+                        <div class="top-bar hide-on-mobile hide-on-tablet">
+                            <div class="ftabg-pallet white-transparent opacity-95 ui segment grid no-border no-padding no-margin no-radius no-shadow custom-section-width sixteen-wide">
+                                <div class="row no-margin no-padding">
+                                    <div class="four wide mobile four wide tablet four wide computer column no-margin no-padding">
+                                        <div class="container-fluid responsive-padding padding-large" style="padding-top: 0rem !important; padding-bottom: 0rem !important">
+                                            <div class="content-block vertical-align-middle">
+                                                <div class="inner-content">
+                                                    <a title="4th Avenue | Life Republic" href="/" class="fta-logo-image-container"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="twelve wide mobile twelve wide tablet twelve wide computer column no-margin no-padding">
+                                        <div class="container-fluid responsive-padding padding-large" style="padding-top: 0rem !important; padding-bottom: 0rem !important">
+                                            <div class="content-block vertical-align-middle">
+                                                <div class="inner-content position-right text-align-right phone-numbers">
+                                                    <div class="phone-number-div">                                                        
+                                                        <a class="phone-number" title="Send an email to facility" target="_blank" href="mailto:facility@liferepublic4thavenue.com" >
+                                                            facility@liferepublic4thavenue.com
+                                                        </a>
+                                                        <span class="number-type-title"><span class="inline divider">|</span>Facility</span>
+                                                    </div>
+                                                    <div class="phone-number-div">                                                        
+                                                        <a class="phone-number" title="Send an email to security" target="_blank" href="mailto:secretary@liferepublic4thavenue.com" >
+                                                            secretary@liferepublic4thavenue.com
+                                                        </a>
+                                                        <span class="number-type-title"><span class="inline divider">|</span>Security</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Main navigation computer-->
+                        <div class="ftabg-pallet green-transparent opacity-85 ui segment grid no-border no-padding no-margin no-radius no-shadow custom-section-width sixteen-wide hide-on-mobile hide-on-tablet">
+                            <div class="row no-margin no-padding">
+                                <div class="sixteen wide mobile sixteen wide tablet sixteen wide computer column no-margin no-padding">
+                                    <div class="container-fluid responsive-padding padding-large" style="padding-top: 0rem !important; padding-bottom: 0rem !important">
+                                        <div class="content-block vertical-align-middle">
+                                            <div class="inner-content position-right text-align-right">
+                                                <div class="right menu fta-navbar-main-menu">
+                                                    <a href="/" class="item">
+                                                        <span class="menu-text" style="font-size:1.1em;">
+                                                            COMING SOON
+                                                        </span>
+                                                    </a>
+                                                    <!-- <a href="./departments.html" class="item">
+                                                        <span class="menu-text" style="font-size:1.1em;">
+                                                            DEPARTMENTS
+                                                        </span>
+                                                    </a>
+                                                    <a href="./services.html" class="item">
+                                                        <span class="menu-text" style="font-size:1.1em;">
+                                                            SERVICES
+                                                        </span>
+                                                    </a>
+                                                    <a href="./team.html" class="item">
+                                                        <span class="menu-text" style="font-size:1.1em;">
+                                                            TEAM
+                                                        </span>
+                                                    </a>
+                                                    <a href="./about-us.html" class="item">
+                                                        <span class="menu-text" style="font-size:1.1em;">
+                                                            ABOUT
+                                                        </span>
+                                                    </a>
+                                                    <a href="./contact.html" class="item">
+                                                        <span class="menu-text" style="font-size:1.1em;">
+                                                            CONTACT
+                                                        </span>
+                                                    </a> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Top nav bar for mobile and tablet-->
+                        <div class="ftabg-pallet white-transparent opacity-95 ui segment grid no-border no-padding no-margin no-radius no-shadow custom-section-width sixteen-wide hide-on-computer">
+                            <div class="row no-margin no-padding">
+                                <div class="eight wide mobile eight wide tablet eight wide computer column no-margin no-padding">
+                                    <div class="container-fluid responsive-padding padding-large" style="padding-top: 1.2rem !important; padding-bottom: 1.2rem !important">
+                                        <div class="content-block vertical-align-middle">
+                                            <div class="inner-content">
+                                                <div class="menu fta-navbar-menu top-navbar-menu">
+                                                    <a title="Open the menu" id="min_button" class="toc item">
+                                                        <i class="fa fa-bars fa-lg"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="eight wide mobile eight wide tablet eight wide computer column no-margin no-padding">
+                                    <div class="container-fluid responsive-padding padding-large" style="padding-top: 1.2rem !important; padding-bottom: 1.2rem !important">
+                                        <div class="content-block vertical-align-middle">
+                                            <div class="inner-content position-right text-align-right">
+                                                <a title="4th Avenue | Life Republic" href="/" class="fta-logo-image-container-mobile"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Top Navigation Bar END -->
+            </div>
+            <!--Page Content START : Including footer-->
+            <div class="ui segment stackable grid no-border no-padding no-margin no-radius no-shadow navbar-light-bg container-limit min-height-500">
+                <div class="ftabg-pallet white row no-margin no-padding">
+                    <div class="sixteen wide mobile sixteen wide tablet sixteen wide computer column no-margin no-padding">
+                        <div class="container-fluid responsive-padding padding-large">
+                            <div class="content-block vertical-align-bottom">
+                                <div class="inner-content position-center text-align-center">
+                                    <div class="ui huge header font-weight-bold text red">
+                                        Oops!
+                                    </div>
+                                    <div class="ui large header">
+                                        We can't seem to find the page you're looking for.
+                                    </div>
+                                    <div class="ui medium header">
+                                        It might be us, but just to confirm, please check the address or link and see if there is something wrong.
+                                    </div>
+                                    <div class="ui medium header">
+                                        <span class="font-weight-bold custom-link color-fta-green"><a href="/">Click HERE</a></span> to go back to home page.
+                                    </div>                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container">
+                <!--Footer START -->
+                <!--Need to remove this and make this common-->
+                <div id="footer">
+                    <div class="ftabg-blue-pallet fifty desktop-100vh ui segment stackable grid no-border no-padding no-margin no-radius no-shadow navbar-light-bg scroll-light-bg">
+                        <div class="custom-section-height custom-section-height desktop-100vh row no-margin no-padding">
+                            <div class="sixteen wide mobile sixteen wide tablet sixteen wide computer column no-margin no-padding">
+                                <div class="container-fluid responsive-padding padding-large">
+                                    <div class="content-block vertical-align-middle">
+                                        <div class="inner-content position-center text-align-center custom-section-width sixteen-wide container-limit max-width-boxed-layout">
+                                            <div class="animated fadeInUp">
+                                                <img class="ui centered tiny image" src="./assets/images/logo/life-republic-logo.png" alt="Life Republic" style="width: 120px">
+                                                <div class="ui hidden divider"></div>
+                                            </div>
+                                            <div class="animated fadeInUp">
+                                                <img class="ui centered medium image" src="./assets/images/logo/4th-avenue-logo-title-color.svg" alt="4th Avenue | Life Republic">
+                                                <div class="ui hidden divider"></div>
+                                            </div>
+                                            <div class="animated fadeInUp fast delay-700ms">
+                                                <div class="ui hidden divider"></div>
+                                                <div class="ui huge header text fta-green font-weight-bold no-margin">
+                                                    Contact us
+                                                </div>
+                                                <div class="ui stackable compact menu footer-navbar-menu light-bg-menu ftabg-pallet full-transparent no-border no-shadow">
+                                                    <a title="Send an email to facility" target="_blank" href="mailto:facility@liferepublic4thavenue.com" class="center-align-text item">
+                                                        <span class="menu-text"><i class="at large icon"></i>facility@liferepublic4thavenue.com</span>
+                                                    </a>
+                                                    <a title="Send an email to security" target="_blank" href="mailto:security@liferepublic4thavenue.com" class="center-align-text item">
+                                                        <span class="menu-text"><i class="at large icon"></i>security@liferepublic4thavenue.com</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sixteen wide mobile sixteen wide tablet sixteen wide computer column no-margin no-padding">
+                                <div class="container-fluid responsive-padding padding-large">
+                                    <div class="content-block vertical-align-bottom">
+                                        <div class="inner-content position-center text-align-center custom-section-width sixteen-wide container-limit max-width-boxed-layout">
+                                            <div class="animated fadeInUp fast delay-1s">
+                                                <div class="ui tiny header no-margin">
+                                                    &copy; 2015 - <span id="currentYear"></span> Copyright, 4<sup>th</sup> Avenue - Life Republic. All rights reserved.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Footer ENDS -->
+            </div>
+            <!--Page Content END : Including footer-->
+        </div>
+    </div>
+    <script>
+        var date = new Date();
+        var year = date.getFullYear();
+        $('#currentYear').text(year);
+    </script>
+</body>
+</html>

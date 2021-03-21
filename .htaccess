@@ -1,0 +1,36 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks -MultiViews
+
+  DirectoryIndex index.html
+
+  RewriteEngine On
+  RewriteBase /
+
+  # Disable Automatic Directory detection
+  DirectorySlash Off
+
+  # removing trailing slash
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)/$ $1 [R=301,L]
+
+  # non www to www
+  RewriteCond %{HTTP_HOST} !^www\.
+  RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+  # html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+  # index redirect
+  RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+  RewriteRule ^index\.html$ https://www.liferepublic4thavenue.com/ [R=301,L]
+  RewriteCond %{THE_REQUEST} \.html
+  RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+  # http to https
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+  # Error document
+  ErrorDocument 404 /404.shtml
+</IfModule>
